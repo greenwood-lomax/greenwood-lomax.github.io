@@ -1,0 +1,75 @@
+#intro {
+	z-index: 5;
+	position: relative;
+	padding: 0;
+}
+
+#about {
+	text-align: center;
+	h2 {
+		text-align: center;
+		margin-bottom: 60px;
+	}
+	.fa-5 {
+		font-size: 5em;
+	}
+	p {
+		font-size: 1.25em;
+		padding: 1em;
+	}
+}
+
+#services {
+	// text-align: center;
+	h3 {
+		padding: 1em 0;
+		margin: 0;
+		font-weight: 700;		
+	}
+	p {
+		font-size: 1.2em;
+	}
+}
+
+#projects {
+	padding-bottom: 60px;
+	h2 {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.project {
+		text-align: center;
+		h3 {
+			text-decoration: none;
+			@include transition(opacity, 1s);
+		}
+		img {
+			width: 100%;
+			@include transition(opacity, 1s);
+			padding: 30px;
+		}
+		&:hover {
+			h3, img {
+				opacity: .75;
+			}
+
+		}
+	}
+}
+
+#contact {
+	// height: auto;
+	// min-height: auto;
+	text-align: center;
+	h2 {
+		// padding-bottom: 20px;
+	}
+	a {
+		display: inline-block;
+	}
+	.contact-details {
+		i {
+			margin-right: 10px;
+		}
+	}
+}

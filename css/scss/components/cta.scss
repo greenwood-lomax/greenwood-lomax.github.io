@@ -1,0 +1,19 @@
+.cta {
+    display: inline-block;
+    color: $darkGrey;
+    background-color: $lightGrey;
+    @include border-radius(0);
+    @include transition(opacity, 1s);
+    border-color: transparent;
+    box-shadow: none;	
+    padding: 10px 20px;
+    text-decoration: none;
+	&:hover {
+        opacity: .5;	
+	}
+    &:focus, &:active, &:hover, &:visited {
+        text-decoration: none;
+        color: $darkGrey;
+    }
+	margin: 40px 0;
+}
